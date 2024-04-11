@@ -1,0 +1,108 @@
+.custom-content {
+    --background: #ffffff; /* Define a cor de fundo rosada */
+    display: flex; /* Ativa o modo flexbox */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da área de conteúdo para a altura da tela */
+  }
+  .ion-padding{
+    display: flex;
+  }
+
+  .custom-card {
+    position: relative;
+    margin-left: 5%;
+    width: 50%; /* Define a largura do card */
+    max-width: 400px; /* Define a largura máxima do card */
+    background-color: rgba(255, 255, 255, 0.9); /* Define um fundo translúcido */
+    border-radius: 10px; /* Adiciona cantos arredondados ao card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra mais pronunciada */
+    text-align: center; /* Centraliza o texto dentro do card */
+    display: flex; /* Ativa o modo flexbox para centralizar verticalmente */
+    flex-direction: column; /* Organiza os elementos dentro do card em uma coluna */
+    justify-content: center; /* Centraliza verticalmente o conteúdo dentro do card */
+    
+  }
+  
+  .custom-card-content {
+    color: #333; /* Define a cor do texto */
+    font-size: 18px; /* Define o tamanho da fonte */
+  }
+  
+  /* Gradiente para o primeiro cartão */
+ 
+  
+  /* Gradiente para o segundo cartão */
+  .custom-card-1 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/burger_fridays.jpg");
+    background-size: cover;
+    width: 90%; 
+    padding: 8%;
+    max-width: 40%;
+    
+  }
+  .custom-card-2 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/240_F_457738290_y8fywtzTyfT2pQzU5mL1OpKHHAERc6kS\ \(1\).jpg");
+    background-size: cover;
+    width: 90%; 
+    padding: 8%;
+    max-width: 40%;
+    
+  }
+  
+  .custom-card-3 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/merredio.avif");
+    background-size: cover;
+    width:100%;
+    padding: 10%;
+  }
+  .custom-card-4 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/drinques-bebida-alcoolica-tequila-cerveja-chopp-gim-martini-alcool-copos-tacas-1663094165597_v2_900x506.jpg");
+    background-size: cover;
+    width:100%;
+    padding: 10%;
+  }
+  .custom-card-5 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/download.png");
+    background-size: cover;
+    width: 100%;
+    padding: 10%;
+  }
+  .custom-card-6 {
+    background: linear-gradient(45deg, #bfbfbf, #bfbfbf);
+    background-image: url("../../assets/download\ \(1\).png");
+    background-size: cover;
+    width: 100%;
+    padding: 10%;
+  }
+
+  .custom-card-7 {
+    background-image: url("../../assets/12620221823426C705FD6-C357-4459-9EC8-A261EB082EE5.jpeg");
+    background-size: cover;
+    width: 50%; 
+    padding: 45%;
+    max-width: 100%;
+ }
+  
+  .mercado-title {
+    color: #fff; /* Cor do texto em branco */
+  }
+  .full-img {
+    position: relative;
+    width: 140px;
+    // height: auto;
+  }
+  .junto{
+    display: flex;
+    width: 100%; 
+    gap: 12px;
+
+    div {
+        width: 25%
+    }
+  }
